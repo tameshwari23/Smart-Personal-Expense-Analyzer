@@ -173,6 +173,10 @@ Notable outputs:
 
 The dataset (`personal_finance_tracker.csv`) contains anonymized personal finance records with the following key columns:
 
-`date`, `user_id`, `monthly_income`, `monthly_expense_total`, `savings_rate`, `credit_score`, `debt_to_income_ratio`, `loan_payment`, `investment_amount`, `essential_spending`, `discretionary_spending`, `income_type`, `category`, `cash_flow_status`, `financial_stress_level`, `actual_savings`, `savings_goal_met`
+date, user_id, monthly_income, monthly_expense_total, savings_rate, budget_goal, financial_scenario, credit_score, debt_to_income_ratio, loan_payment, investment_amount, subscription_services, emergency_fund, transaction_count, fraud_flag, discretionary_spending, essential_spending, income_type, rent_or_mortgage, category, cash_flow_status, financial_advice_score, financial_stress_level, actual_savings, savings_goal_met
+
+Dataset size (3,010 records)
+Number of features (25)
+Missing values handled (3,759)
 
 The raw data intentionally contains missing values, duplicates, inconsistent categories, and outliers — addressing these is part of the practical exercises.
